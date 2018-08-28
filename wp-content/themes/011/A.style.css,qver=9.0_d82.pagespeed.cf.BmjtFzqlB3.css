@@ -664,7 +664,8 @@ img {
     min-height: 1px;
     float: left;
     padding-right: 24px;
-    padding-left: 24px
+    padding-left: 24px;
+    width: 20%
 }
 
 @media(min-width:1019px) and (max-width:1140px) {
@@ -42599,7 +42600,7 @@ body.activity-permalink #buddypress div.activity-comments ul li {
 }
 
 .td-footer-wrapper {
-    background-color: #222;
+    background-color:  #002080;
     padding-top: 54px;
     padding-bottom: 20px;
     color: #eaeaea;

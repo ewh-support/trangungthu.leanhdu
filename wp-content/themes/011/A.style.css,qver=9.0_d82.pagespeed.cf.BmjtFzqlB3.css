@@ -1,15 +1,15 @@
 @font-face {
     font-family: newspaper;
-    src: url(/images/icons/newspaper.eot@15);
-    src: url(/images/icons/newspaper.eot@15) format('embedded-opentype'), url(/images/icons/newspaper.woff@15) format('woff'), url(/images/icons/newspaper.ttf@15) format('truetype'), url(/images/icons/newspaper.svg@15) format('svg');
+    src: url(/images/icons/newspaper.eot);
+    src: url(/images/icons/newspaper.eot) format('embedded-opentype'), url(/images/icons/newspaper.woff) format('woff'), url(/images/icons/newspaper.ttf) format('truetype'), url(/images/icons/newspaper.svg) format('svg');
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: newspaper-icons;
-    src: url(/images/icons/newspaper-icons.eot@1);
-    src: url(/images/icons/newspaper-icons.eot@1) format('embedded-opentype'), url(/images/icons/newspaper-icons.woff@1) format('woff'), url(/images/icons/newspaper-icons.ttf@1) format('truetype'), url(/images/icons/newspaper-icons.svg@1) format('svg');
+    src: url(/images/icons/newspaper-icons.eot);
+    src: url(/images/icons/newspaper-icons.eot) format('embedded-opentype'), url(/images/icons/newspaper-icons.woff) format('woff'), url(/images/icons/newspaper-icons.ttf) format('truetype'), url(/images/icons/newspaper-icons.svg) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -5362,6 +5362,7 @@ ul.sf-menu li li.sfHover li ul {
 a.sf-with-ul i.td-icon-menu-down:before {
     content: '\e808'
 }
+
 
 /* ul.sf-js-enabled>li>a>i.td-icon-menu-down:before {
     content: '\e806'!important
@@ -42600,7 +42601,7 @@ body.activity-permalink #buddypress div.activity-comments ul li {
 }
 
 .td-footer-wrapper {
-    background-color:  #002080;
+    background-color: #002080;
     padding-top: 54px;
     padding-bottom: 20px;
     color: #eaeaea;

@@ -428,7 +428,7 @@
 .tdm-menu-active-style4 .tdm-header .sf-menu>.current-menu-item>a,
 .tdm-menu-active-style4 .tdm-header .sf-menu>.sfHover>a,
 .tdm-menu-active-style4 .tdm-header .sf-menu>li>a:hover {
-    border-color: #4db2ec
+    border-color: red
 }
 
 .tdm-menu-active-style4 .tdm-header .sf-menu a.sf-with-ul {
@@ -444,7 +444,7 @@
 .tdm-menu-active-style5 .tdm-header .td-header-menu-wrap .sf-menu>.current-menu-item>a,
 .tdm-menu-active-style5 .tdm-header .td-header-menu-wrap .sf-menu>.sfHover>a,
 .tdm-menu-active-style5 .tdm-header .td-header-menu-wrap .sf-menu>li>a:hover {
-    background-color: #4db2ec;
+    background-color: red;
     color: #fff
 }
 
@@ -726,7 +726,7 @@
     content: '';
     width: 100%;
     position: absolute;
-    background-color: #4db2ec;
+    background-color: red;
     top: 0;
     left: 0;
     margin: auto;

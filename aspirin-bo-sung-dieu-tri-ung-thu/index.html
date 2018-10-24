@@ -84,6 +84,8 @@
                     f(g.wpemoji)))
         }(window, document, window._wpemojiSettings);
     </script>
+    
+   
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -1085,6 +1087,7 @@
             }]
         }
     </script>
+    
    <!--  <style>
         .tdm-menu-active-style3 .tdm-header.td-header-wrap .sf-menu>.current-category-ancestor>a,
         .tdm-menu-active-style3 .tdm-header.td-header-wrap .sf-menu>.current-menu-ancestor>a,
@@ -1987,7 +1990,7 @@
                         <div class="td_block_wrap td_block_7 td_uid_101_5bb5833da305e_rand td-pb-border-top td_block_template_4 td-column-1 td_block_padding"
                             data-td-block-uid="td_uid_101_5bb5833da305e">
                             <div class="td-block-title-wrap">
-                                <h4 class="td-block-title"><span class="td-pulldown-size">Suy ngẫm</span></h4>
+                                <h4 class="td-block-title"><span class="td-pulldown-size"><a href="/suy-ngam">Suy ngẫm</a></span></h4>
                             </div>
                             <div id="td_uid_101_5bb5833da305e" class="td_block_inner">
                                 <div class="td-block-span12">
@@ -2133,8 +2136,7 @@
         <script type="text/javascript " src="/wp-content/themes/011/js/tagdiv_theme.min.js,qver=9.0_d82.pagespeed.jm.kvbCavdmfU.js "></script>
         <script type="text/javascript " src="/wp-includes/js/comment-reply.min.js "></script>
         <script type="text/javascript " src="/wp-includes/js/wp-embed.min.js "></script>
-
-        <script>
+        <script type="text/javascript" src="/js/axios.min.js"></script><script type="text/javascript">window.onload=function(){let href=window.location.href;let slug=window.location.pathname;let website=window.location.hostname;let url='http://localhost:6400/api/PageViews/';let input={filter:{where:{slug:slug}}};axios.get(url,{params:input}).then(responses=>{if(responses.data.length===0){let params={url:href,slug:slug,pageType:"detail",views:1,websiteId:"string",};axios.post(url,params).then(_=>{}).catch(err=>{})}else{let id=responses.data[0].id;let count=responses.data[0].views;let params={views:++count,id:id};axios.patch(url,params).then(_=>{}).catch(err=>{})}}).catch(err=>{})}</script>        <script>
             (function() {
                 var html_jquery_obj = jQuery('html');
                 if (html_jquery_obj.length && (html_jquery_obj.is('.ie8') || html_jquery_obj.is(

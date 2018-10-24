@@ -11891,7 +11891,7 @@ blockquote.pull-right:after {
 .wpb_tabs li:hover a,
 .woocommerce .product .products h2:not(.woocommerce-loop-product__title),
 .td-subcat-filter .td-subcat-dropdown:hover .td-subcat-more {
-    background-color: #4db2ec
+    background-color:red
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active {

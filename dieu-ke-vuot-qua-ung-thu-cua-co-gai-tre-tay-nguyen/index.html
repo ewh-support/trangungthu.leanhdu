@@ -84,6 +84,8 @@
                     f(g.wpemoji)))
         }(window, document, window._wpemojiSettings);
     </script>
+    
+   
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -1085,6 +1087,7 @@
             }]
         }
     </script>
+    
    <!--  <style>
         .tdm-menu-active-style3 .tdm-header.td-header-wrap .sf-menu>.current-category-ancestor>a,
         .tdm-menu-active-style3 .tdm-header.td-header-wrap .sf-menu>.current-menu-ancestor>a,
@@ -1702,7 +1705,7 @@
 <p>Chị cũng đ&uacute;c kết được kinh nghiệm rằng: &aacute;p dụng phương ph&aacute;p của thầy T&agrave;i kh&ocirc;ng chỉ hết bệnh m&agrave; c&ograve;n an to&agrave;n v&agrave; cơ thể đẹp chứ kh&ocirc;ng bị xuống cấp &ndash; rất ph&ugrave; hợp với tất cả mọi người v&igrave; kh&ocirc;ng hề khổ hạnh &eacute;p x&aacute;c g&igrave; cả. Hiện tại chị vẫn tiếp tục ăn thực dưỡng theo c&aacute;ch hiện đại kết hợp yoga, thiền, thể thao&hellip;&hellip; Ng&agrave;y n&agrave;o người phụ nữ kh&eacute;o tay n&agrave;y thấy nhớ nghề cũ th&igrave; chị tranh thủ l&agrave;m b&aacute;nh thực dưỡng biếu b&agrave; con, bạn b&egrave;. Ngo&agrave;i ra, chị c&ograve;n tranh thủ thời gian để chia sẻ với nhiều người &ldquo;đồng cảnh ngộ&rdquo; về kinh nghiệm ăn thực dưỡng li&ecirc;n ho&agrave;n, c&aacute;ch &aacute;p dụng trợ phương thực dưỡng, tập luyện yoga&hellip;</p>
 
 <p><hr /></p>
-<p><em>&Ocirc;ng Trần Ngọc T&agrave;i &ndash; người hướng dẫn chị Phương ăn thực dưỡng li&ecirc;n ho&agrave;n hiện đại &ndash; vốn l&agrave; lương y c&oacute; nhiều kinh nghiệm, gần 20 năm l&agrave;m b&agrave;o chế thuốc t&acirc;y, th&ocirc;ng thạo tiếng Anh v&agrave; Ph&aacute;p. Điều đ&aacute;ng qu&iacute; nhất l&agrave; &ocirc;ng đ&atilde; c&oacute; kinh nghiệm hơn 50 năm thực h&agrave;nh ăn thực dưỡng v&agrave; hướng dẫn cho rất nhiều người ăn thực dưỡng khỏi bệnh nan y. &Ocirc;ng lu&ocirc;n sẵn sang chia sẻ thực dưỡng li&ecirc;n ho&agrave;n hiện đại qua điện thoại 01217455554 hoặc email: luongytai@gmail.com</em></p>
+<p><em>&Ocirc;ng Trần Ngọc T&agrave;i &ndash; người hướng dẫn chị Phương ăn thực dưỡng li&ecirc;n ho&agrave;n hiện đại &ndash; vốn l&agrave; lương y c&oacute; nhiều kinh nghiệm, gần 20 năm l&agrave;m b&agrave;o chế thuốc t&acirc;y, th&ocirc;ng thạo tiếng Anh v&agrave; Ph&aacute;p. Điều đ&aacute;ng qu&iacute; nhất l&agrave; &ocirc;ng đ&atilde; c&oacute; kinh nghiệm hơn 50 năm thực h&agrave;nh ăn thực dưỡng v&agrave; hướng dẫn cho rất nhiều người ăn thực dưỡng khỏi bệnh nan y. &Ocirc;ng lu&ocirc;n sẵn sang chia sẻ thực dưỡng li&ecirc;n ho&agrave;n hiện đại qua điện thoại 01217455554 hoặc email: <a href="mailto:luongytai@gmail.com">luongytai@gmail.com</a></em></p>
 
 <p><strong>Đăng Khoa&nbsp;</strong></p>
 
@@ -2014,7 +2017,7 @@
                         <div class="td_block_wrap td_block_7 td_uid_101_5bb5833da305e_rand td-pb-border-top td_block_template_4 td-column-1 td_block_padding"
                             data-td-block-uid="td_uid_101_5bb5833da305e">
                             <div class="td-block-title-wrap">
-                                <h4 class="td-block-title"><span class="td-pulldown-size">Suy ngẫm</span></h4>
+                                <h4 class="td-block-title"><span class="td-pulldown-size"><a href="/suy-ngam">Suy ngẫm</a></span></h4>
                             </div>
                             <div id="td_uid_101_5bb5833da305e" class="td_block_inner">
                                 <div class="td-block-span12">
@@ -2160,8 +2163,7 @@
         <script type="text/javascript " src="/wp-content/themes/011/js/tagdiv_theme.min.js,qver=9.0_d82.pagespeed.jm.kvbCavdmfU.js "></script>
         <script type="text/javascript " src="/wp-includes/js/comment-reply.min.js "></script>
         <script type="text/javascript " src="/wp-includes/js/wp-embed.min.js "></script>
-
-        <script>
+        <script type="text/javascript" src="/js/axios.min.js"></script><script type="text/javascript">window.onload=function(){let href=window.location.href;let slug=window.location.pathname;let website=window.location.hostname;let url='http://localhost:6400/api/PageViews/';let input={filter:{where:{slug:slug}}};axios.get(url,{params:input}).then(responses=>{if(responses.data.length===0){let params={url:href,slug:slug,pageType:"detail",views:1,websiteId:"string",};axios.post(url,params).then(_=>{}).catch(err=>{})}else{let id=responses.data[0].id;let count=responses.data[0].views;let params={views:++count,id:id};axios.patch(url,params).then(_=>{}).catch(err=>{})}}).catch(err=>{})}</script>        <script>
             (function() {
                 var html_jquery_obj = jQuery('html');
                 if (html_jquery_obj.length && (html_jquery_obj.is('.ie8') || html_jquery_obj.is(

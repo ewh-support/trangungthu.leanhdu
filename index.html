@@ -292,7 +292,7 @@
             });
             if (jQuery(window).width() <=1250) {
                 jQuery(".td-icon-mobile, .td-icon-search").on('click', function(e) {
-                    jQuery(".td-stretch-content, .td-footer-wrapper").hide();
+                    jQuery(".td-stretch-content, .td-footer-wrapper, td-content-wrap").hide();
                 });
                 jQuery('.td-icon-close-mobile').on('click', function(e) {
                     jQuery(".td-stretch-content, .td-footer-wrapper").show();
@@ -428,7 +428,7 @@
             document.getElementById("getCurrentDate").innerHTML = today;
         </script>        <div class="td-main-content-wrap td-main-page-wrap td-container-wrap">
 
-            <div class="tdc-content-wrap">
+            <div class="td-content-wrap">
                 <div id="td_uid_1_5b836982eb774" class="tdc-row stretch_row_1200 td-stretch-content">
                     <div class="vc_row td_uid_20_5b836982eb7ae_rand td-ss-row wpb_row td-pb-row">
                         <style scoped>

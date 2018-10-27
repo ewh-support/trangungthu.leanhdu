@@ -44746,4 +44746,18 @@ body.td-animation-stack-type2 .post a.td-sml-link-to-image>img {
     position: relative
 }
 /*==========CSS TRANG INDEX=========*/
-
+.chuthich, .chithich{
+	text-align: center;
+}
+.chuthich i{
+	font-size: 15px;
+	font-style: italic;
+	text-align: center;
+	font-family: Mightype;
+}
+.chithich i{
+	font-size: 15px;
+	font-style: italic;
+	text-align: center;
+	font-family: Mightype;
+}

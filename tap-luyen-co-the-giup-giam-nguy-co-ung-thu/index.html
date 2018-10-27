@@ -1366,7 +1366,7 @@
             });
             if (jQuery(window).width() <=1250) {
                 jQuery(".td-icon-mobile, .td-icon-search").on('click', function(e) {
-                    jQuery(".td-stretch-content, .td-footer-wrapper").hide();
+                    jQuery(".td-stretch-content, .td-footer-wrapper, td-content-wrap").hide();
                 });
                 jQuery('.td-icon-close-mobile').on('click', function(e) {
                     jQuery(".td-stretch-content, .td-footer-wrapper").show();
@@ -1569,7 +1569,7 @@
                                     </a>
                                 </div>
                                 <p style="margin-top: -12px">
-                                    <div style=" font-size: 15px;font-style: italic; text-align: center; font-family: Mightype"><i>Chăm chỉ tập luyện thể dục thường xuyên giúp giảm nguy cơ ung thư - Ảnh: Internet</i></div>
+                                    <div class="chithich"><i>Chăm chỉ tập luyện thể dục thường xuyên giúp giảm nguy cơ ung thư - Ảnh: Internet</i></div>
                                 </p>
                                 <div class="td-post-sharing-top">
                                     <div id="td_social_sharing_article_top" class="td-post-sharing td-ps-bg td-ps-padding td-post-sharing-style2 ">
@@ -1620,30 +1620,7 @@
                                 </div>
                                 <style>
                                     
-                                    .td-post-content blockquote  {
-                                        font-size: 15px;
-                                        font-style: italic;
-                                        color: #000;
-                                        font-weight: 600;
-                                        line-height: 24px;
-                                         border-left: 3px solid #001a66;
-                                        padding: 15px;
-                                        text-transform: none;
-                                        font-family: PT seri;
-                                        text-align: left;
-                                    }
-                                    .td-post-content blockquote p{
-                                        margin: 0px;
-                                        padding: 0px;
-                                        font-size: 15px;
-                                        font-style: italic;
-                                        color: #000;
-                                        font-weight: 600;
-                                        line-height: 24px;
-                                        text-transform: none;
-                                        font-family: PT seri;
-
-                                    }
+                                    
                                   
                                 </style>
 
@@ -2129,7 +2106,7 @@
     <script type="text/javascript">
         window.onload = function () {
             let websiteId = "baosuckhoe";
-            let url = "http://178.128.52.111:6400" + "/api/PageViews/";
+            let url = "http://demo.backend.ungthu.club:6400" + "/api/PageViews/";
     
             let href = window.location.href;
             let slug = window.location.pathname;
@@ -2138,8 +2115,7 @@
             let params = {
                 url: href,
                 slug: slug,
-                pageType: "detail",
-                views: 1,
+                pageType: "",
                 websiteId: websiteId,
             };
             axios.post(url, params).then(_ => {}).catch(err => {})

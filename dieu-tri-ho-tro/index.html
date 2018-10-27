@@ -343,7 +343,7 @@
             });
             if (jQuery(window).width() <=1250) {
                 jQuery(".td-icon-mobile, .td-icon-search").on('click', function(e) {
-                    jQuery(".td-stretch-content, .td-footer-wrapper").hide();
+                    jQuery(".td-stretch-content, .td-footer-wrapper, td-content-wrap").hide();
                 });
                 jQuery('.td-icon-close-mobile').on('click', function(e) {
                     jQuery(".td-stretch-content, .td-footer-wrapper").show();
@@ -1248,7 +1248,25 @@
     <script type="text/javascript" src="/wp-content/themes/011/js/tagdiv_theme.min.js,qver=9.0_d82.pagespeed.jm.kvbCavdmfU.js"></script>
     <script type="text/javascript" src="/wp-includes/js/comment-reply.min.js"></script>
     <script type="text/javascript" src="/wp-includes/js/wp-embed.min.js"></script>
-    <script>
+    <script type="text/javascript" src="/js/axios.min.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            let websiteId = "baosuckhoe";
+            let url = "http://demo.backend.ungthu.club:6400" + "/api/PageViews/";
+    
+            let href = window.location.href;
+            let slug = window.location.pathname;
+            let hostname = window.location.hostname;
+    
+            let params = {
+                url: href,
+                slug: slug,
+                pageType: "",
+                websiteId: websiteId,
+            };
+            axios.post(url, params).then(_ => {}).catch(err => {})
+        }
+    </script>    <script>
         jQuery().ready(function() {
             var pulldown_size = jQuery(".td-category-pulldown-filter:first").width();
             if (pulldown_size > 113) {
